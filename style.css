@@ -1,68 +1,93 @@
 body {
-  background-color: dodgerblue;
-  overflow: hidden;
+  background-color: #6c63ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+  flex: 2;
+}
+.first-sect {
+  background: linear-gradient(45deg, black, transparent);
+  border-bottom-left-radius: 45px;
 }
 .menu,
 li {
   display: inline-flex;
-  float: right;
 }
-.menu {
-}
+
 .menu,
 li,
 a {
-  font-size: 19px;
+  font-size: 15px;
   color: #fff;
   text-decoration: none;
-  padding: 0 10px;
+  padding-right: 10px;
+}
+a:hover {
+  color: #ed63ff;
 }
 
-#content-body {
-  width: 100%;
-  padding: 10px 50px;
+.content-body {
+  padding: 10px 40px;
 }
 
 .parent {
-  width: 50%;
-  /* margin: 40px; */
-
-  float: left;
+  font-weight: lighter;
+  color: #fff;
+  flex: 1;
 }
 .body-img {
-  width: 50%;
-  float: right;
-  overflow: hidden;
+  flex: 2;
 }
 
 .body-img img {
-  overflow: hidden;
+  height: auto;
 }
 
 .display {
-  width: 400px;
   padding-top: 90px;
 }
-.display > p {
-  /* color: #fff; */
+.display h2 {
+  margin-bottom: 0px;
+  text-transform: uppercase;
   font-size: 20px;
+  font-weight: lighter;
+  margin: 0px;
 }
-.display > h1,
-h2 {
-  /* color: #fff; */
+.display h1 {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 button {
-  height: 50px;
-  width: 160px;
-  background-color: #6c63ff;
-  box-shadow: #ed63ff;
+  text-transform: uppercase;
+  background-color: transparent;
   color: #fff;
-  border: 10px;
-  border-radius: 20px;
+  border: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  font-weight: lighter !important;
+}
+
+button:hover {
+  background-color: #fff;
+  box-shadow: #ed63ff;
+  color: #6c63ff;
+  border-radius: 50px;
+  border-color: #6c63ff;
+  box-shadow: 0px 12px 14px #6c63ffe8;
 }
 
 button,
 text {
   font-size: 17px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
 }
