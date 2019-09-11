@@ -1,0 +1,68 @@
+body {
+  background-color: dodgerblue;
+  overflow: hidden;
+}
+.menu,
+li {
+  display: inline-flex;
+  float: right;
+}
+.menu {
+}
+.menu,
+li,
+a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+#content-body {
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.parent {
+  width: 50%;
+  /* margin: 40px; */
+
+  float: left;
+}
+.body-img {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+}
+
+.body-img img {
+  overflow: hidden;
+}
+
+.display {
+  width: 400px;
+  padding-top: 90px;
+}
+.display > p {
+  /* color: #fff; */
+  font-size: 20px;
+}
+.display > h1,
+h2 {
+  /* color: #fff; */
+}
+
+button {
+  height: 50px;
+  width: 160px;
+  background-color: #6c63ff;
+  box-shadow: #ed63ff;
+  color: #fff;
+  border: 10px;
+  border-radius: 20px;
+}
+
+button,
+text {
+  font-size: 17px;
+}
